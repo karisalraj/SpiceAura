@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | SpiceAura</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+
+        <div class="container">
+
+            <!-- Logo -->
+
+            <a class="navbar-brand logo" href="#">
+                SpiceAura
+            </a>
+
+            <!-- Mobile Menu Button -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Navbar Links -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="chef.html">Chef</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">Reservation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- Mobile Bottom Navbar -->
+
+    <div class="mobile-bottom-nav">
+
+        <a href="index.html" class="nav-item-mobile ">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="about.html" class="nav-item-mobile">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>About</span>
+        </a>
+
+        <a href="menu.html" class="nav-item-mobile active-mobile">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Menu</span>
+        </a>
+
+        <a href="gallery.html" class="nav-item-mobile">
+            <i class="fa-solid fa-image"></i>
+            <span>Gallery</span>
+        </a>
+
+        <a href="chef.html" class="nav-item-mobile">
+            <i class="fa-solid fa-user-tie"></i>
+            <span>Chef</span>
+        </a>
+
+    </div>
+    <!-- Mobile Bottom Navbar  End -->
+
+    <!-- Right Floating Button -->
+
+    <div class="floating-wrapper-right">
+        <a href="reservation.html" class="floating-btn">
+
+            <i class="fa-solid fa-calendar-check"></i>
+        </a>
+
+        <a href="contact.html" class="floating-btn">
+
+            <i class="fa-solid fa-phone"></i>
+
+        </a>
+
+    </div>
+    <!-- Right Floating Button End -->
+    <!-- Navbar End -->
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="menu-hero">
+
+        <!-- DESKTOP VIDEO -->
+
+        <video autoplay muted loop playsinline class="hero-video desktop-video">
+
+            <source src="./videos/desktop.mp4" type="video/mp4">
+
+        </video>
+
+        <!-- MOBILE VIDEO -->
+
+        <video autoplay muted loop playsinline class="hero-video mobile-video">
+
+            <source src="./videos/mobile.mp4" type="video/mp4">
+
+        </video>
+
+
+        <!-- OVERLAY -->
+
+        <div class="hero-overlay"></div>
+
+        <!-- CONTENT -->
+
+        <div class="hero-content container text-center">
+
+            <h1>
+                Taste The Luxury
+            </h1>
+
+            <p>
+                Experience premium dining with cinematic flavors,
+                handcrafted dishes, and unforgettable ambience.
+            </p>
+
+            <a href="#menu" class="hero-btn">
+                Explore Menu
+            </a>
+
+        </div>
+
+    </section>
+    <!-- ================= CATEGORY SECTION ================= -->
+
+<section class="category-section">
+    <div class="container">
+
+    <!-- TITLE -->
+
+    <div class="section-title text-center">
+
+        <h2>
+            Our Premium Menu
+        </h2>
+
+        <p>
+            Crafted with authentic Indian flavors and luxury presentation.
+        </p>
+
+    </div>
+
+</div>
+<div class="category-tabs">
+
+    <button class="active">
+        All
+    </button>
+
+    <button>
+        Starters
+    </button>
+
+    <button>
+        Main Course
+    </button>
+
+    <button>
+        Desserts
+    </button>
+
+    <button>
+        Drinks
+    </button>
+
+</div>
+<div class="gold-line"></div>
+
+</section>
+<!-- ================= FOOD SECTION ================= -->
+
+<section class="food-section" id="menu">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Royal Hyderabadi Biryani 🍗🍚.jpg" alt="Biryani">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Hyderabadi Biryani
+                        </h3>
+
+                        <p>
+                            Aromatic basmati rice layered with rich spices and tender meat.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹499
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Butter Chicken.jpg" alt="Butter Chicken">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Butter Chicken
+                        </h3>
+
+                        <p>
+                            Creamy tomato gravy infused with butter and Indian spices.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹399
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Paneer Tikka.jpg" alt="Paneer Tikka">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Paneer Tikka
+                        </h3>
+
+                        <p>
+                            Char-grilled paneer cubes marinated with rich Indian masala.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹349
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 4 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Tandoori.jpg" alt="Tandoori">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Tandoori Platter
+                        </h3>
+
+                        <p>
+                            Smoky tandoor specialties served with mint chutney.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹599
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 5 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Mughlai Kebab.jpg" alt="Kebab">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Mughlai Kebabs
+                        </h3>
+
+                        <p>
+                            Juicy royal kebabs infused with Mughlai flavors and spices.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹449
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 6 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="food-card">
+
+                    <div class="food-img">
+
+                        <img src="./images/food/Royal Falooda.jpg" alt="Falooda">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <h3>
+                            Royal Falooda
+                        </h3>
+
+                        <p>
+                            Saffron infused falooda topped with nuts and kulfi.
+                        </p>
+
+                        <div class="price-btn">
+
+                            <span>
+                                ₹299
+                            </span>
+
+                            <button>
+                                Order Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CHEF SPECIAL SECTION ================= -->
+
+<section class="chef-banner">
+
+    <div class="chef-overlay"></div>
+
+    <div class="container">
+
+        <div class="chef-content">
+
+            <span>
+                Chef’s Signature Special
+            </span>
+
+            <h2>
+                Royal Dum Biryani Experience
+            </h2>
+
+            <p>
+                Slow-cooked with authentic royal spices,
+                layered basmati rice, and handcrafted flavors
+                inspired by Indian heritage cuisine.
+            </p>
+
+            <a href="#">
+                Explore Special
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= RESERVATION CTA ================= -->
+
+<section class="reservation-strip">
+
+    <div class="container">
+
+        <div class="reservation-content">
+
+            <h2>
+                Ready For A Royal Dining Experience?
+            </h2>
+
+            <p>
+                Reserve your table today and enjoy luxury Indian cuisine with cinematic ambience.
+            </p>
+
+            <a href="reservation.html">
+                Reserve Your Table
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- LOGO -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <h2 class="footer-logo">
+                    SpiceAura
+                </h2>
+
+                <p class="footer-text">
+                    Experience cinematic luxury dining with authentic Indian flavors, handcrafted dishes, and royal ambience.
+                </p>
+
+            </div>
+
+            <!-- QUICK LINKS -->
+
+            <div class="col-lg-2 col-md-6">
+
+                <h4>Quick Links</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="menu.html">Menu</a></li>
+
+                    <li><a href="reservation.html">Reservation</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- CONTACT -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <h4>Contact</h4>
+
+                <ul>
+
+                    <li>Chennai, India</li>
+
+                    <li>+91 95857 04573</li>
+
+                    <li>Karisalrajan2706@gmail.com</li>
+
+                </ul>
+
+            </div>
+
+            <!-- OPENING HOURS -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <h4>Opening Hours</h4>
+
+                <ul>
+
+                    <li>Mon - Fri : 11AM - 11PM</li>
+
+                    <li>Sat - Sun : 12PM - 1AM</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- COPYRIGHT -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 SpiceAura. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
