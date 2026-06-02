@@ -1,6 +1,6 @@
 # SpiceAura Restaurant Website
 
-A luxury restaurant website built using HTML, CSS, Bootstrap, and JavaScript.
+A luxury restaurant website built using HTML, CSS, Bootstrap.
 
 ## Features
 - Premium Dark UI
